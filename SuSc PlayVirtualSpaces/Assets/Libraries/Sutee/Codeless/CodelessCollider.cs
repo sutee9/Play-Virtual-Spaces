@@ -23,7 +23,7 @@ public class CodelessCollider : MonoBehaviour
     [Tooltip("When should something happen")]
     public string otherTag = "";
     [Space]
-    [Tooltip("Perform this action when the configured collision event occurs")]
+    [Tooltip("Perform this action when the configured collision event occur. (all at once)")]
     public UnityEvent doThis;
 
     [Space]

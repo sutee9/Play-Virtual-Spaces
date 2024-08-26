@@ -273,7 +273,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8962971005048453393}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.054796174, y: 0.70498043, z: -0.70498043, w: -0.054796174}
+  m_LocalRotation: {x: 0.054796174, y: -0.70498043, z: 0.70498043, w: 0.054796174}
   m_LocalPosition: {x: -0.75975955, y: 0.13905057, z: -0.6456108}
   m_LocalScale: {x: 0.1473411, y: 0.14734112, z: 0.14734112}
   m_ConstrainProportionsScale: 0
@@ -281,7 +281,7 @@ Transform:
   - {fileID: 820392662636843945}
   - {fileID: 3082173647373223528}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 171.111}
 --- !u!135 &1062661813014492414
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -301,7 +301,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 1.55
+  m_Radius: 3.3
   m_Center: {x: 0.00000047683716, y: 0, z: 0}
 --- !u!114 &7172965952323636373
 MonoBehaviour:
@@ -359,8 +359,8 @@ MonoBehaviour:
         m_CallState: 2
   mayOnlyUseOnce: 0
   destroyAfterCollision: 1
-  log: 0
-  logAll: 1
+  log: 1
+  logAll: 0
   ignoreColliders: 0
   ignoreTriggers: 0
 --- !u!114 &7086930813203345591
