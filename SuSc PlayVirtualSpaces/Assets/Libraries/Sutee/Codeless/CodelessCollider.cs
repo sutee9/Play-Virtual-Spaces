@@ -16,14 +16,23 @@ public class CodelessCollider : MonoBehaviour
 {
 
     private Collider _collider;
-    public enum collisionAction { OnCollisionEnter, OnCollisionStay, OnCollisionExit }
+    public enum collisionAction { OnCollisionEnter, OnCollisionStay, OnCollisionExit, DoNothing }
     [Tooltip("When should something happen")]
     public collisionAction whenThisHappens;
+    private collisionAction _whenThisHappensBackup;
     [Tooltip("When should something happen")]
     public string otherTag = "";
     [Space]
     [Tooltip("Perform this action when the configured collision event occurs")]
     public UnityEvent doThis;
+
+    [Space]
+    [Tooltip("The collider will only trigger once, but the object will remain in the scene. ")]
+    public bool mayOnlyUseOnce = false;
+    [Tooltip("The object will be destroyed after the configured collision event occurs. It will first be disabled immediately, and then destroyed after 5 seconds.")]
+    public bool destroyAfterCollision = false;
+    private float afterSeconds=5f;
+
 
     [Header("Show Messages in Console")]
     [Tooltip("Show a message in the console if the configured collision event occurs with a collider with the specified tag.")]
@@ -71,6 +80,10 @@ public class CodelessCollider : MonoBehaviour
                 Debug.Log(name + ".OnCollisionEnter(tag=" + collision.gameObject.tag + ") triggers configured action.");
 
             doThis.Invoke();
+            if (destroyAfterCollision)
+            {
+                DisableAndDestroy(afterSeconds);
+            }
 
         }
     }
@@ -92,6 +105,9 @@ public class CodelessCollider : MonoBehaviour
                 Debug.Log(name + ".OnTriggerEnter(tag=" + other.tag + ") triggers configured action.");
 
             doThis.Invoke();
+            if (destroyAfterCollision) { 
+                DisableAndDestroy(afterSeconds);
+            }
 
         }
     }
@@ -113,6 +129,10 @@ public class CodelessCollider : MonoBehaviour
                 Debug.Log(name + ".OnCollisionExit(tag=" + collision.gameObject.tag + ") triggers configured action.");
 
             doThis.Invoke();
+            if (destroyAfterCollision)
+            {
+                DisableAndDestroy(afterSeconds);
+            }
 
         }
     }
@@ -133,6 +153,10 @@ public class CodelessCollider : MonoBehaviour
                 Debug.Log(name + ".OnTriggerExit(tag=" + other.tag + ") triggers configured action.");
 
             doThis.Invoke();
+            if (destroyAfterCollision)
+            {
+                DisableAndDestroy(afterSeconds);
+            }
 
         }
     }
@@ -153,6 +177,10 @@ public class CodelessCollider : MonoBehaviour
                 Debug.Log(name + ".OnCollisionStay(tag=" + collision.gameObject.tag + ") triggers configured action.");
 
             doThis.Invoke();
+            if (destroyAfterCollision)
+            {
+                DisableAndDestroy(afterSeconds);
+            }
 
         }
     }
@@ -175,6 +203,10 @@ public class CodelessCollider : MonoBehaviour
                 Debug.Log(name + ".OnTriggerExit(tag=" + other.tag + ") triggers configured action.");
 
             doThis.Invoke();
+            if (destroyAfterCollision)
+            {
+                DisableAndDestroy(afterSeconds);
+            }
 
         }
     }
@@ -182,5 +214,29 @@ public class CodelessCollider : MonoBehaviour
     void Init()
     {
         _collider = GetComponent<Collider>();
+        _whenThisHappensBackup = whenThisHappens;
+    }
+
+    public void DisableCollider()
+    {
+        whenThisHappens = collisionAction.DoNothing;
+    }
+
+    public void ReEnableCollider()
+    {
+        whenThisHappens = _whenThisHappensBackup;
+    }
+
+    void DisableAndDestroy(float delayTime)
+    {
+        DisableCollider();
+        StartCoroutine(DelayAction(delayTime));
+    }
+
+    IEnumerator DelayAction(float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+
+        Destroy(gameObject);
     }
 }
