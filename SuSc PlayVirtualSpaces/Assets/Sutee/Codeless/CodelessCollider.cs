@@ -32,9 +32,9 @@ public class CodelessCollider : MonoBehaviour
     public bool logAll = false;
 
     [Header("Advanced")]
-    [Tooltip("Normally, this reacts to both triggers and colliders. You can ignore one or the other, however. (Note: Even logAll will not be firing)")]
+    [Tooltip("Normally, CodelessCollider reacts to both triggers and colliders. You can ignore one or the other, however. (Note: If you do, even logAll will not be firing on meeting another collider)")]
     public bool ignoreColliders = false;
-    [Tooltip("Normally, this reacts to both triggers and colliders. You can ignore one or the other, however. (Note: Even logAll will not be firing)")]
+    [Tooltip("Normally, CodelessCollider reacts to both triggers and colliders. You can ignore one or the other, however. (Note: If you do, even logAll will not be firing on meeting another trigger)")]
     public bool ignoreTriggers = false;
 
     private void Awake()
@@ -78,7 +78,6 @@ public class CodelessCollider : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (ignoreTriggers) return;
-        Debug.Log(doThis);
 
         if (logAll)
         {
