@@ -17,11 +17,12 @@ public class CodelessCollider : MonoBehaviour
 
     private Collider _collider;
     public enum collisionAction { OnCollisionEnter, OnCollisionStay, OnCollisionExit, DoNothing }
+    [Tooltip("Tag of the other game object which should register a collision.")]
+    public string otherTag = "";
     [Tooltip("When should something happen")]
     public collisionAction whenThisHappens;
     private collisionAction _whenThisHappensBackup;
-    [Tooltip("When should something happen")]
-    public string otherTag = "";
+    
     [Space]
     [Tooltip("Perform this action when the configured collision event occur. (all at once)")]
     public UnityEvent doThis;
@@ -45,6 +46,11 @@ public class CodelessCollider : MonoBehaviour
     public bool ignoreColliders = false;
     [Tooltip("Normally, CodelessCollider reacts to both triggers and colliders. You can ignore one or the other, however. (Note: If you do, even logAll will not be firing on meeting another trigger)")]
     public bool ignoreTriggers = false;
+    [System.Serializable]
+    public enum checkCollisionWith { Tag, gameObjectName }
+    [Tooltip("Defines what the otherTag property is compared with. Default is tag, which compares to the collisions tag. But you can also check the collisions game object name.")]
+    public checkCollisionWith collideOn = checkCollisionWith.Tag;
+
 
     private void Awake()
     {
@@ -73,7 +79,10 @@ public class CodelessCollider : MonoBehaviour
         }
 
         if (whenThisHappens == collisionAction.OnCollisionEnter
-            && (string.IsNullOrEmpty(otherTag) || collision.gameObject.CompareTag(otherTag)))
+            && (string.IsNullOrEmpty(otherTag)
+                || (collideOn == checkCollisionWith.Tag && collision.gameObject.CompareTag(otherTag))
+                || (collideOn == checkCollisionWith.gameObjectName && collision.gameObject.name == otherTag)
+               ))
         {
 
             if (log && !logAll)
@@ -98,7 +107,10 @@ public class CodelessCollider : MonoBehaviour
         }
 
         if (whenThisHappens == collisionAction.OnCollisionEnter
-            && (string.IsNullOrEmpty(otherTag) || other.CompareTag(otherTag)))
+            && (string.IsNullOrEmpty(otherTag)
+                || (collideOn == checkCollisionWith.Tag && other.CompareTag(otherTag))
+                || (collideOn == checkCollisionWith.gameObjectName && other.name == otherTag)
+               ))
         {
 
             if (log && !logAll)
@@ -122,7 +134,10 @@ public class CodelessCollider : MonoBehaviour
         }
 
         if (whenThisHappens == collisionAction.OnCollisionExit
-            && (string.IsNullOrEmpty(otherTag) || collision.gameObject.CompareTag(otherTag)))
+            && (string.IsNullOrEmpty(otherTag)
+                || (collideOn == checkCollisionWith.Tag && collision.gameObject.CompareTag(otherTag))
+                || (collideOn == checkCollisionWith.gameObjectName && collision.gameObject.name == otherTag)
+               ))
         {
 
             if (log && !logAll)
@@ -146,7 +161,10 @@ public class CodelessCollider : MonoBehaviour
         }
 
         if (whenThisHappens == collisionAction.OnCollisionExit
-            && (string.IsNullOrEmpty(otherTag) || other.CompareTag(otherTag)))
+            && (string.IsNullOrEmpty(otherTag)
+                || (collideOn == checkCollisionWith.Tag && other.CompareTag(otherTag))
+                || (collideOn == checkCollisionWith.gameObjectName && other.name == otherTag)
+               ))
         {
 
             if (log && !logAll)
@@ -171,7 +189,10 @@ public class CodelessCollider : MonoBehaviour
         }
 
         if (whenThisHappens == collisionAction.OnCollisionStay
-            && (string.IsNullOrEmpty(otherTag) || collision.gameObject.CompareTag(otherTag)))
+            && (string.IsNullOrEmpty(otherTag)
+                || (collideOn == checkCollisionWith.Tag && collision.gameObject.CompareTag(otherTag))
+                || (collideOn == checkCollisionWith.gameObjectName && collision.gameObject.name == otherTag)
+               ))
         {
             if (log && !logAll)
                 Debug.Log(name + ".OnCollisionStay(tag=" + collision.gameObject.tag + ") triggers configured action.");
@@ -196,7 +217,10 @@ public class CodelessCollider : MonoBehaviour
         }
 
         if (whenThisHappens == collisionAction.OnCollisionStay
-            && (string.IsNullOrEmpty(otherTag) || other.CompareTag(otherTag)))
+            && (string.IsNullOrEmpty(otherTag)
+                || (collideOn == checkCollisionWith.Tag && other.CompareTag(otherTag))
+                || (collideOn == checkCollisionWith.gameObjectName && other.name == otherTag)
+               ))
         {
 
             if (log && !logAll)

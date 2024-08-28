@@ -826,7 +826,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6158884364044743396}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.9195682, z: -0, w: -0.3929305}
+  m_LocalRotation: {x: 0, y: 0.91956794, z: 0, w: 0.39293113}
   m_LocalPosition: {x: -13.417722, y: 0.62999994, z: -22.762474}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
@@ -835,7 +835,7 @@ Transform:
   - {fileID: 2113035133356603385}
   - {fileID: 627015560180735372}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 133.726, z: 0}
 --- !u!65 &5276291006455362150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -869,8 +869,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  otherTag: Player
   whenThisHappens: 0
-  otherTag: 
   doThis:
     m_PersistentCalls:
       m_Calls:
@@ -892,6 +892,7 @@ MonoBehaviour:
   logAll: 0
   ignoreColliders: 0
   ignoreTriggers: 0
+  collideOn: 0
 --- !u!114 &2832013849413061658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -904,8 +905,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  whenThisHappens: 2
   otherTag: 
+  whenThisHappens: 2
   doThis:
     m_PersistentCalls:
       m_Calls:
@@ -927,6 +928,7 @@ MonoBehaviour:
   logAll: 0
   ignoreColliders: 0
   ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &7636087105058593646
 GameObject:
   m_ObjectHideFlags: 0
@@ -992,7 +994,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Beispiel 2:\nT\xFCre\n\nN\xE4here dich der T\xFCr, und sie offnet sich
+  m_text: "Beispiel 3:\nT\xFCre\n\nN\xE4here dich der T\xFCr, und sie offnet sich
     automatisch."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 73795ad1f5e3b404cabad6e6264d8989, type: 2}
@@ -1073,7 +1075,7 @@ GameObject:
   m_Component:
   - component: {fileID: 627015560180735372}
   m_Layer: 0
-  m_Name: InstructionPanel_Example2
+  m_Name: InstructionPanel_Example3_Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
