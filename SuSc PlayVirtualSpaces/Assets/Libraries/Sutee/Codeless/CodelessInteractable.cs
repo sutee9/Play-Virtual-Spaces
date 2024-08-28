@@ -15,6 +15,11 @@ public class CodelessInteractable : MonoBehaviour
     UnityEvent OnFocus;
     UnityEvent OnFocusLost;
 
+    [System.Serializable]
+    public enum InteractableType { Interactable, Grabbable }
+    [Tooltip("Interactables stay in place, and trigger 'OnInteract' actions on click; Grabbables are picked up by the player when clicked. They execute the OnInteract action on being picked up, but not on being dropped")]
+    public InteractableType type = InteractableType.Interactable;
+
     [Space]
     public bool log = true;
 
