@@ -21,6 +21,8 @@ public class InteractablePlayerComponent : MonoBehaviour
     [Range(5f, 150f)]
     public float range = 50f;
     public GameObject raySource;
+    public GameObject grabbedObjectRoot;
+    
 
     [Space]
     public StringEvent setTextInHUD;
@@ -30,6 +32,7 @@ public class InteractablePlayerComponent : MonoBehaviour
     public bool showRay = true;
     private string _interactableTag = "Interactable";
     private CodelessInteractable _currentInteractable;
+    private CodelessInteractable _currentlyHeldGrabbable = null;
 
     private void Awake()
     {
@@ -39,6 +42,12 @@ public class InteractablePlayerComponent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if ( (Input.GetMouseButtonDown(0) || Input.GetKeyDown("e") || Input.GetKeyDown(KeyCode.E))
+            && _currentlyHeldGrabbable != null)
+        {
+            DropGrabbable();
+        }
+
         Vector3 fwd = raySource.transform.TransformDirection(Vector3.forward);
         if (showRay) Debug.DrawRay(raySource.transform.position, fwd * 50, Color.green);
 
@@ -67,7 +76,19 @@ public class InteractablePlayerComponent : MonoBehaviour
 
                     if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("e") || Input.GetKeyDown(KeyCode.E))
                     {
-                        _currentInteractable.Interact();
+                        if (_currentInteractable.type == CodelessInteractable.InteractableType.Grabbable)
+                        {
+                            _currentlyHeldGrabbable = _currentInteractable;
+                            _currentlyHeldGrabbable.transform.SetParent(grabbedObjectRoot.transform);
+                            _currentlyHeldGrabbable.transform.SetLocalPositionAndRotation(Vector3.zero,
+                                _currentlyHeldGrabbable.transform.localRotation);
+                            _currentInteractable.Interact();
+                        }
+                        else
+                        {
+                            _currentInteractable.Interact();
+                        }
+                        
                     }
                 }
                 else
@@ -84,5 +105,14 @@ public class InteractablePlayerComponent : MonoBehaviour
             
         }
 
+    }
+
+    void DropGrabbable()
+    {
+        if (_currentlyHeldGrabbable != null)
+        {
+            _currentlyHeldGrabbable.transform.SetParent(null);
+            _currentlyHeldGrabbable = null;
+        }
     }
 }
