@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 276a39a5a210b124885f0eff3e80f1f3
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234253
+  packageName: POLYGON Tropical Jungle - Nature Biomes - Low Poly 3D Art by Synty
+  packageVersion: 1.9.0
+  assetPath: Assets/PolygonNatureBiomes/PNB_Core/Shaders/SyntyStudios_WaterShader.shader
+  uploadId: 703403

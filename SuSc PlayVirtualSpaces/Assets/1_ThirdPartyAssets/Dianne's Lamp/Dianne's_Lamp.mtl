@@ -1,5 +1,0 @@
-newmtl Material
-map_Kd assets/color.jpg
-norm assets/normal.jpg
-map_ao assets/occlusion.jpg
-Pr 1.00

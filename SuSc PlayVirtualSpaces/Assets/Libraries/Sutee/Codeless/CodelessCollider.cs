@@ -69,8 +69,9 @@ public class CodelessCollider : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
+        Debug.Log("Hello");
         if (ignoreColliders) return;
 
         if (logAll)
