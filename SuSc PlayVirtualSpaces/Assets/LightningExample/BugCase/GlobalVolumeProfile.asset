@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   texture:
     m_OverrideState: 1
-    m_Value: {fileID: 2800000, guid: 5425420a0e2df5e49bc145986809fed7, type: 3}
+    m_Value: {fileID: 2800000, guid: 3a960031bf86a40c48365975788f1d2a, type: 3}
     dimension: 1
   contribution:
     m_OverrideState: 1
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c01700fd266d6914ababb731e09af2eb, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   mode:
     m_OverrideState: 1
     m_Value: 1
