@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: aec3553a3f61b804da497aa2906ef148
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217775
+  packageName: Fire & Smoke - Dynamic Nature
+  packageVersion: 1.2.5
+  assetPath: Assets/NatureManufacture Assets/Particle Shaders/NM_Particles_Smoke_Lightmap_Lit.shader
+  uploadId: 736837

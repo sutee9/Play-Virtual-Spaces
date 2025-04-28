@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 0b96041736f3d3e4a91382b1dac91c96
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 217775
+  packageName: Fire & Smoke - Dynamic Nature
+  packageVersion: 1.2.5
+  assetPath: Assets/NatureManufacture Assets/Particle Shaders/NM_Particles_Fire_Unlit.shader
+  uploadId: 736837
