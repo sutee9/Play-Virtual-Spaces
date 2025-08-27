@@ -613,14 +613,13 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: 8553b28e32c6f46cabf328dba5b5f2a6,
+      objectReference: {fileID: -127844609115117539, guid: 5d0dbe9cd045eb6458b6aa0a6ffc0235,
         type: 3}
     - target: {fileID: 7454866599805710740, guid: e31e8ef78f27d474d8f1f26ee9be1e79,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -876546973899608171, guid: 8553b28e32c6f46cabf328dba5b5f2a6,
-        type: 3}
+      objectReference: {fileID: 2100000, guid: dfe3bdb1f74f2b24cbd1867c8829b21c, type: 2}
     - target: {fileID: 8592355099828292347, guid: e31e8ef78f27d474d8f1f26ee9be1e79,
         type: 3}
       propertyPath: m_RootOrder
