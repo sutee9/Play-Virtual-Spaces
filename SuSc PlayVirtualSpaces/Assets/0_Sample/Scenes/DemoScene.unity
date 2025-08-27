@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 1410495}
   - component: {fileID: 1410494}
   - component: {fileID: 1410493}
+  - component: {fileID: 1410497}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -255,6 +256,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410491}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1410497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!4 &3466324 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6009548817427697732, guid: 0e5d41bc6cb39cd4fb4d1a135fc5ed2b,
@@ -382,6 +407,7 @@ GameObject:
   - component: {fileID: 12238557}
   - component: {fileID: 12238556}
   - component: {fileID: 12238555}
+  - component: {fileID: 12238559}
   m_Layer: 6
   m_Name: Sphere (small) (5)
   m_TagString: Untagged
@@ -502,6 +528,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 12238553}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &12238559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12238553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &22596940
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,6 +565,7 @@ GameObject:
   - component: {fileID: 22596944}
   - component: {fileID: 22596943}
   - component: {fileID: 22596942}
+  - component: {fileID: 22596946}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -635,6 +686,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22596940}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &22596946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 22596940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &23325685
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,6 +1298,7 @@ GameObject:
   - component: {fileID: 74152381}
   - component: {fileID: 74152380}
   - component: {fileID: 74152379}
+  - component: {fileID: 74152383}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -1343,6 +1419,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74152377}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &74152383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74152377}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &76072946
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,6 +2016,7 @@ GameObject:
   - component: {fileID: 128324013}
   - component: {fileID: 128324012}
   - component: {fileID: 128324011}
+  - component: {fileID: 128324015}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -2036,6 +2137,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 128324009}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &128324015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 128324009}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &141824824
 GameObject:
   m_ObjectHideFlags: 0
@@ -2238,6 +2363,7 @@ GameObject:
   - component: {fileID: 150140010}
   - component: {fileID: 150140009}
   - component: {fileID: 150140008}
+  - component: {fileID: 150140012}
   m_Layer: 6
   m_Name: Sphere (big) (12)
   m_TagString: Untagged
@@ -2358,6 +2484,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 150140006}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &150140012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150140006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &158524607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2454,6 +2604,7 @@ GameObject:
   - component: {fileID: 159214990}
   - component: {fileID: 159214989}
   - component: {fileID: 159214988}
+  - component: {fileID: 159214992}
   m_Layer: 6
   m_Name: Sphere (big) (4)
   m_TagString: Untagged
@@ -2574,6 +2725,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159214986}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &159214992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159214986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &161774000
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,6 +2762,7 @@ GameObject:
   - component: {fileID: 161774004}
   - component: {fileID: 161774003}
   - component: {fileID: 161774002}
+  - component: {fileID: 161774006}
   m_Layer: 6
   m_Name: Sphere (small) (8)
   m_TagString: Untagged
@@ -2707,6 +2883,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 161774000}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &161774006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 161774000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &170153195
 GameObject:
   m_ObjectHideFlags: 0
@@ -2822,6 +3022,7 @@ GameObject:
   - component: {fileID: 170170067}
   - component: {fileID: 170170066}
   - component: {fileID: 170170065}
+  - component: {fileID: 170170069}
   m_Layer: 6
   m_Name: Sphere (big) (8)
   m_TagString: Untagged
@@ -2942,6 +3143,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 170170063}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &170170069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170170063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &171813536
 GameObject:
   m_ObjectHideFlags: 0
@@ -2955,6 +3180,7 @@ GameObject:
   - component: {fileID: 171813540}
   - component: {fileID: 171813539}
   - component: {fileID: 171813538}
+  - component: {fileID: 171813542}
   m_Layer: 6
   m_Name: Sphere (big) (2)
   m_TagString: Untagged
@@ -3075,6 +3301,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 171813536}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &171813542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171813536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &174552615
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3402,6 +3652,7 @@ GameObject:
   - component: {fileID: 202277466}
   - component: {fileID: 202277465}
   - component: {fileID: 202277464}
+  - component: {fileID: 202277468}
   m_Layer: 6
   m_Name: Cube (medium)
   m_TagString: Untagged
@@ -3522,6 +3773,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202277462}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &202277468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202277462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &214383315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3639,6 +3914,7 @@ GameObject:
   - component: {fileID: 221157758}
   - component: {fileID: 221157757}
   - component: {fileID: 221157756}
+  - component: {fileID: 221157760}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -3759,6 +4035,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 221157754}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &221157760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 221157754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &221720482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4369,6 +4669,7 @@ GameObject:
   - component: {fileID: 241650204}
   - component: {fileID: 241650203}
   - component: {fileID: 241650202}
+  - component: {fileID: 241650206}
   m_Layer: 6
   m_Name: Sphere (big) (18)
   m_TagString: Untagged
@@ -4489,6 +4790,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 241650200}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &241650206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 241650200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &244778890
 GameObject:
   m_ObjectHideFlags: 0
@@ -4825,6 +5150,7 @@ GameObject:
   - component: {fileID: 277847447}
   - component: {fileID: 277847446}
   - component: {fileID: 277847445}
+  - component: {fileID: 277847449}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -4945,6 +5271,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 277847443}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &277847449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 277847443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &280382529
 GameObject:
   m_ObjectHideFlags: 0
@@ -5097,6 +5447,7 @@ GameObject:
   - component: {fileID: 293066780}
   - component: {fileID: 293066779}
   - component: {fileID: 293066778}
+  - component: {fileID: 293066782}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -5217,6 +5568,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293066776}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &293066782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293066776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &307873284
 GameObject:
   m_ObjectHideFlags: 0
@@ -5230,6 +5605,7 @@ GameObject:
   - component: {fileID: 307873288}
   - component: {fileID: 307873287}
   - component: {fileID: 307873286}
+  - component: {fileID: 307873290}
   m_Layer: 6
   m_Name: Sphere (small) (7)
   m_TagString: Untagged
@@ -5350,6 +5726,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307873284}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &307873290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307873284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &310833777
 GameObject:
   m_ObjectHideFlags: 0
@@ -5761,6 +6161,7 @@ GameObject:
   - component: {fileID: 340652520}
   - component: {fileID: 340652519}
   - component: {fileID: 340652518}
+  - component: {fileID: 340652522}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -5881,6 +6282,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340652516}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &340652522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340652516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &340881582
 GameObject:
   m_ObjectHideFlags: 0
@@ -5894,6 +6319,7 @@ GameObject:
   - component: {fileID: 340881586}
   - component: {fileID: 340881585}
   - component: {fileID: 340881584}
+  - component: {fileID: 340881588}
   m_Layer: 6
   m_Name: Sphere (small) (2)
   m_TagString: Untagged
@@ -6014,6 +6440,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340881582}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &340881588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 340881582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &343890978
 GameObject:
   m_ObjectHideFlags: 0
@@ -6027,6 +6477,7 @@ GameObject:
   - component: {fileID: 343890982}
   - component: {fileID: 343890981}
   - component: {fileID: 343890980}
+  - component: {fileID: 343890984}
   m_Layer: 6
   m_Name: Sphere (big) (14)
   m_TagString: Untagged
@@ -6147,6 +6598,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343890978}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &343890984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343890978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &360497702
 GameObject:
   m_ObjectHideFlags: 0
@@ -6160,6 +6635,7 @@ GameObject:
   - component: {fileID: 360497706}
   - component: {fileID: 360497705}
   - component: {fileID: 360497704}
+  - component: {fileID: 360497708}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -6280,6 +6756,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 360497702}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &360497708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 360497702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &367657424
 GameObject:
   m_ObjectHideFlags: 0
@@ -6293,6 +6793,7 @@ GameObject:
   - component: {fileID: 367657428}
   - component: {fileID: 367657427}
   - component: {fileID: 367657426}
+  - component: {fileID: 367657430}
   m_Layer: 6
   m_Name: Sphere (big) (9)
   m_TagString: Untagged
@@ -6413,6 +6914,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367657424}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &367657430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367657424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &374404837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7231,6 +7756,7 @@ GameObject:
   - component: {fileID: 463472844}
   - component: {fileID: 463472843}
   - component: {fileID: 463472842}
+  - component: {fileID: 463472846}
   m_Layer: 6
   m_Name: Sphere (small) (11)
   m_TagString: Untagged
@@ -7351,6 +7877,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463472840}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &463472846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463472840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &473738988
 GameObject:
   m_ObjectHideFlags: 0
@@ -7466,6 +8016,7 @@ GameObject:
   - component: {fileID: 494092187}
   - component: {fileID: 494092186}
   - component: {fileID: 494092185}
+  - component: {fileID: 494092189}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -7586,6 +8137,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 494092183}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &494092189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494092183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &501941778
 GameObject:
   m_ObjectHideFlags: 0
@@ -7599,6 +8174,7 @@ GameObject:
   - component: {fileID: 501941782}
   - component: {fileID: 501941781}
   - component: {fileID: 501941780}
+  - component: {fileID: 501941784}
   m_Layer: 0
   m_Name: Sphere (big) (22)
   m_TagString: Untagged
@@ -7719,6 +8295,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501941778}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &501941784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 501941778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &504469126
 GameObject:
   m_ObjectHideFlags: 0
@@ -8229,6 +8829,7 @@ GameObject:
   - component: {fileID: 545060291}
   - component: {fileID: 545060290}
   - component: {fileID: 545060289}
+  - component: {fileID: 545060293}
   m_Layer: 6
   m_Name: Sphere (big) (15)
   m_TagString: Untagged
@@ -8349,6 +8950,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545060287}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &545060293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545060287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &545556550
 GameObject:
   m_ObjectHideFlags: 0
@@ -8362,6 +8987,7 @@ GameObject:
   - component: {fileID: 545556554}
   - component: {fileID: 545556553}
   - component: {fileID: 545556552}
+  - component: {fileID: 545556556}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -8482,6 +9108,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 545556550}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &545556556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 545556550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &556597522
 GameObject:
   m_ObjectHideFlags: 0
@@ -8578,6 +9228,7 @@ GameObject:
   - component: {fileID: 563409484}
   - component: {fileID: 563409483}
   - component: {fileID: 563409482}
+  - component: {fileID: 563409486}
   m_Layer: 6
   m_Name: Sphere (big) (10)
   m_TagString: Untagged
@@ -8698,6 +9349,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 563409480}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &563409486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563409480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &584647356
 GameObject:
   m_ObjectHideFlags: 0
@@ -8813,6 +9488,7 @@ GameObject:
   - component: {fileID: 588006523}
   - component: {fileID: 588006522}
   - component: {fileID: 588006521}
+  - component: {fileID: 588006525}
   m_Layer: 6
   m_Name: Sphere (small) (9)
   m_TagString: Untagged
@@ -8933,6 +9609,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 588006519}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &588006525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588006519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &590295038
 GameObject:
   m_ObjectHideFlags: 0
@@ -9051,6 +9751,7 @@ GameObject:
   - component: {fileID: 594026113}
   - component: {fileID: 594026112}
   - component: {fileID: 594026111}
+  - component: {fileID: 594026115}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -9171,6 +9872,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594026109}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &594026115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 594026109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &603056564
 GameObject:
   m_ObjectHideFlags: 0
@@ -9184,6 +9909,7 @@ GameObject:
   - component: {fileID: 603056568}
   - component: {fileID: 603056567}
   - component: {fileID: 603056566}
+  - component: {fileID: 603056570}
   m_Layer: 6
   m_Name: Sphere (big) (16)
   m_TagString: Untagged
@@ -9304,6 +10030,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603056564}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &603056570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603056564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &605580222
 GameObject:
   m_ObjectHideFlags: 0
@@ -9317,6 +10067,7 @@ GameObject:
   - component: {fileID: 605580226}
   - component: {fileID: 605580225}
   - component: {fileID: 605580224}
+  - component: {fileID: 605580228}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -9437,6 +10188,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 605580222}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &605580228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605580222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &610403607
 GameObject:
   m_ObjectHideFlags: 0
@@ -9450,6 +10225,7 @@ GameObject:
   - component: {fileID: 610403611}
   - component: {fileID: 610403610}
   - component: {fileID: 610403609}
+  - component: {fileID: 610403613}
   m_Layer: 6
   m_Name: Sphere (big) (13)
   m_TagString: Untagged
@@ -9570,6 +10346,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 610403607}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &610403613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 610403607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &634541104
 GameObject:
   m_ObjectHideFlags: 0
@@ -9667,6 +10467,7 @@ GameObject:
   - component: {fileID: 637095341}
   - component: {fileID: 637095340}
   - component: {fileID: 637095339}
+  - component: {fileID: 637095343}
   m_Layer: 6
   m_Name: Sphere (big) (1)
   m_TagString: Untagged
@@ -9787,6 +10588,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637095337}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &637095343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637095337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &642955610
 GameObject:
   m_ObjectHideFlags: 0
@@ -9883,6 +10708,7 @@ GameObject:
   - component: {fileID: 647603100}
   - component: {fileID: 647603099}
   - component: {fileID: 647603098}
+  - component: {fileID: 647603102}
   m_Layer: 6
   m_Name: Sphere (big) (20)
   m_TagString: Untagged
@@ -10003,6 +10829,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647603096}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &647603102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647603096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &647920729
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10247,6 +11097,7 @@ GameObject:
   - component: {fileID: 658576711}
   - component: {fileID: 658576710}
   - component: {fileID: 658576709}
+  - component: {fileID: 658576713}
   m_Layer: 6
   m_Name: Sphere (big) (5)
   m_TagString: Untagged
@@ -10367,6 +11218,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658576707}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &658576713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658576707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &677097555
 GameObject:
   m_ObjectHideFlags: 0
@@ -10380,6 +11255,7 @@ GameObject:
   - component: {fileID: 677097559}
   - component: {fileID: 677097558}
   - component: {fileID: 677097557}
+  - component: {fileID: 677097561}
   m_Layer: 6
   m_Name: Sphere (small) (13)
   m_TagString: Untagged
@@ -10500,6 +11376,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 677097555}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &677097561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677097555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &687189636
 GameObject:
   m_ObjectHideFlags: 0
@@ -10851,6 +11751,7 @@ GameObject:
   - component: {fileID: 712584843}
   - component: {fileID: 712584842}
   - component: {fileID: 712584841}
+  - component: {fileID: 712584845}
   m_Layer: 6
   m_Name: Sphere (small) (4)
   m_TagString: Untagged
@@ -10971,6 +11872,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 712584839}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &712584845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712584839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &722038522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11558,6 +12483,7 @@ GameObject:
   - component: {fileID: 770037256}
   - component: {fileID: 770037255}
   - component: {fileID: 770037254}
+  - component: {fileID: 770037258}
   m_Layer: 6
   m_Name: Cube (medium)
   m_TagString: Untagged
@@ -11678,6 +12604,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 770037252}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &770037258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770037252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &771442434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11791,6 +12741,7 @@ GameObject:
   - component: {fileID: 818648914}
   - component: {fileID: 818648913}
   - component: {fileID: 818648912}
+  - component: {fileID: 818648916}
   m_Layer: 6
   m_Name: Cube (medium)
   m_TagString: Untagged
@@ -11911,6 +12862,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818648910}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &818648916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818648910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &819949741
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12186,6 +13161,7 @@ GameObject:
   - component: {fileID: 852896806}
   - component: {fileID: 852896805}
   - component: {fileID: 852896804}
+  - component: {fileID: 852896808}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -12306,6 +13282,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852896802}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &852896808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852896802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &898752683
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12434,6 +13434,7 @@ GameObject:
   - component: {fileID: 906376599}
   - component: {fileID: 906376598}
   - component: {fileID: 906376597}
+  - component: {fileID: 906376601}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -12554,6 +13555,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 906376595}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &906376601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906376595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &927215292
 GameObject:
   m_ObjectHideFlags: 0
@@ -12765,6 +13790,7 @@ GameObject:
   - component: {fileID: 951368179}
   - component: {fileID: 951368178}
   - component: {fileID: 951368177}
+  - component: {fileID: 951368181}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -12885,6 +13911,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 951368175}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &951368181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951368175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &957748035
 GameObject:
   m_ObjectHideFlags: 0
@@ -12898,6 +13948,7 @@ GameObject:
   - component: {fileID: 957748039}
   - component: {fileID: 957748038}
   - component: {fileID: 957748037}
+  - component: {fileID: 957748041}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -13018,6 +14069,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957748035}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &957748041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957748035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!4 &980887674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3497281381332678934, guid: 8c7f556d411d24841b340e1ea9e08139,
@@ -13364,6 +14439,7 @@ GameObject:
   - component: {fileID: 1036610323}
   - component: {fileID: 1036610322}
   - component: {fileID: 1036610321}
+  - component: {fileID: 1036610325}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -13484,6 +14560,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1036610319}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1036610325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1036610319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1038334530
 GameObject:
   m_ObjectHideFlags: 0
@@ -13497,6 +14597,7 @@ GameObject:
   - component: {fileID: 1038334534}
   - component: {fileID: 1038334533}
   - component: {fileID: 1038334532}
+  - component: {fileID: 1038334536}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -13617,6 +14718,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038334530}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1038334536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038334530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1038890695
 GameObject:
   m_ObjectHideFlags: 0
@@ -13630,6 +14755,7 @@ GameObject:
   - component: {fileID: 1038890699}
   - component: {fileID: 1038890698}
   - component: {fileID: 1038890697}
+  - component: {fileID: 1038890701}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -13750,6 +14876,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1038890695}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1038890701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038890695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1049184018
 GameObject:
   m_ObjectHideFlags: 0
@@ -13763,6 +14913,7 @@ GameObject:
   - component: {fileID: 1049184022}
   - component: {fileID: 1049184021}
   - component: {fileID: 1049184020}
+  - component: {fileID: 1049184024}
   m_Layer: 6
   m_Name: Sphere (small) (16)
   m_TagString: Untagged
@@ -13883,6 +15034,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049184018}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1049184024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1049184018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1076222997
 GameObject:
   m_ObjectHideFlags: 0
@@ -14217,6 +15392,7 @@ GameObject:
   - component: {fileID: 1095045639}
   - component: {fileID: 1095045638}
   - component: {fileID: 1095045637}
+  - component: {fileID: 1095045641}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -14337,6 +15513,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095045635}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1095045641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095045635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1103644811
 GameObject:
   m_ObjectHideFlags: 0
@@ -14350,6 +15550,7 @@ GameObject:
   - component: {fileID: 1103644815}
   - component: {fileID: 1103644814}
   - component: {fileID: 1103644813}
+  - component: {fileID: 1103644817}
   m_Layer: 6
   m_Name: Sphere (small) (1)
   m_TagString: Untagged
@@ -14470,6 +15671,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1103644811}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1103644817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1103644811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1104438632
 GameObject:
   m_ObjectHideFlags: 0
@@ -14483,6 +15708,7 @@ GameObject:
   - component: {fileID: 1104438636}
   - component: {fileID: 1104438635}
   - component: {fileID: 1104438634}
+  - component: {fileID: 1104438638}
   m_Layer: 6
   m_Name: Sphere (small) (6)
   m_TagString: Untagged
@@ -14603,6 +15829,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104438632}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1104438638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104438632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!4 &1139626260 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4262137896963809435, guid: 5d44629b517264243941c9fdc497bb41,
@@ -14727,6 +15977,7 @@ GameObject:
   - component: {fileID: 1148226893}
   - component: {fileID: 1148226892}
   - component: {fileID: 1148226891}
+  - component: {fileID: 1148226895}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -14847,6 +16098,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148226889}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1148226895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148226889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &1153098054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15032,6 +16307,7 @@ GameObject:
   - component: {fileID: 1161888161}
   - component: {fileID: 1161888160}
   - component: {fileID: 1161888159}
+  - component: {fileID: 1161888163}
   m_Layer: 6
   m_Name: Sphere (small) (14)
   m_TagString: Untagged
@@ -15152,6 +16428,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161888157}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1161888163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161888157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!4 &1163094574 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7851002797528534259, guid: 4e8e2ebf5f68c466397c922e1fa4e3c9,
@@ -15380,6 +16680,7 @@ GameObject:
   - component: {fileID: 1197478586}
   - component: {fileID: 1197478585}
   - component: {fileID: 1197478584}
+  - component: {fileID: 1197478588}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -15500,6 +16801,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197478582}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1197478588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197478582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1200252321
 GameObject:
   m_ObjectHideFlags: 0
@@ -15513,6 +16838,7 @@ GameObject:
   - component: {fileID: 1200252325}
   - component: {fileID: 1200252324}
   - component: {fileID: 1200252323}
+  - component: {fileID: 1200252327}
   m_Layer: 6
   m_Name: Sphere (small) (18)
   m_TagString: Untagged
@@ -15633,6 +16959,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200252321}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1200252327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200252321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &1201864023
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15850,6 +17200,7 @@ GameObject:
   - component: {fileID: 1211088695}
   - component: {fileID: 1211088694}
   - component: {fileID: 1211088693}
+  - component: {fileID: 1211088697}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -15970,6 +17321,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1211088691}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1211088697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211088691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1218381404
 GameObject:
   m_ObjectHideFlags: 0
@@ -15983,6 +17358,7 @@ GameObject:
   - component: {fileID: 1218381408}
   - component: {fileID: 1218381407}
   - component: {fileID: 1218381406}
+  - component: {fileID: 1218381410}
   m_Layer: 6
   m_Name: Sphere (big) (17)
   m_TagString: Untagged
@@ -16103,6 +17479,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1218381404}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1218381410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218381404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1245374352
 GameObject:
   m_ObjectHideFlags: 0
@@ -16149,6 +17549,7 @@ GameObject:
   - component: {fileID: 1266228983}
   - component: {fileID: 1266228982}
   - component: {fileID: 1266228981}
+  - component: {fileID: 1266228985}
   m_Layer: 6
   m_Name: Sphere (big) (19)
   m_TagString: Untagged
@@ -16269,6 +17670,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1266228979}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1266228985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1266228979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1269449104
 GameObject:
   m_ObjectHideFlags: 0
@@ -16372,6 +17797,7 @@ GameObject:
   - component: {fileID: 1272465254}
   - component: {fileID: 1272465253}
   - component: {fileID: 1272465252}
+  - component: {fileID: 1272465256}
   m_Layer: 6
   m_Name: Cube (medium)
   m_TagString: Untagged
@@ -16492,6 +17918,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272465250}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1272465256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272465250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1279266037
 GameObject:
   m_ObjectHideFlags: 0
@@ -16505,6 +17955,7 @@ GameObject:
   - component: {fileID: 1279266041}
   - component: {fileID: 1279266040}
   - component: {fileID: 1279266039}
+  - component: {fileID: 1279266043}
   m_Layer: 6
   m_Name: Cube (medium)
   m_TagString: Untagged
@@ -16625,6 +18076,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1279266037}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1279266043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279266037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1281456043
 GameObject:
   m_ObjectHideFlags: 0
@@ -17151,6 +18626,7 @@ GameObject:
   - component: {fileID: 1331964366}
   - component: {fileID: 1331964365}
   - component: {fileID: 1331964364}
+  - component: {fileID: 1331964368}
   m_Layer: 6
   m_Name: Sphere (big) (11)
   m_TagString: Untagged
@@ -17271,6 +18747,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331964362}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1331964368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331964362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1343477846
 GameObject:
   m_ObjectHideFlags: 0
@@ -17461,6 +18961,7 @@ GameObject:
   - component: {fileID: 1374867827}
   - component: {fileID: 1374867826}
   - component: {fileID: 1374867825}
+  - component: {fileID: 1374867829}
   m_Layer: 6
   m_Name: Sphere (small) (15)
   m_TagString: Untagged
@@ -17581,6 +19082,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374867823}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1374867829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374867823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!4 &1382132070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7851002797528534259, guid: 4e8e2ebf5f68c466397c922e1fa4e3c9,
@@ -17698,6 +19223,7 @@ GameObject:
   - component: {fileID: 1402594614}
   - component: {fileID: 1402594613}
   - component: {fileID: 1402594612}
+  - component: {fileID: 1402594616}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -17818,6 +19344,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1402594610}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1402594616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402594610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1414591300
 GameObject:
   m_ObjectHideFlags: 0
@@ -17831,6 +19381,7 @@ GameObject:
   - component: {fileID: 1414591304}
   - component: {fileID: 1414591303}
   - component: {fileID: 1414591302}
+  - component: {fileID: 1414591306}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -17951,6 +19502,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1414591300}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1414591306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1414591300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &1416116290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18136,6 +19711,7 @@ GameObject:
   - component: {fileID: 1444982732}
   - component: {fileID: 1444982731}
   - component: {fileID: 1444982730}
+  - component: {fileID: 1444982734}
   m_Layer: 6
   m_Name: Sphere (small) (10)
   m_TagString: Untagged
@@ -18256,6 +19832,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1444982728}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1444982734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444982728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1455675164
 GameObject:
   m_ObjectHideFlags: 0
@@ -18301,6 +19901,7 @@ GameObject:
   - component: {fileID: 1459527053}
   - component: {fileID: 1459527052}
   - component: {fileID: 1459527051}
+  - component: {fileID: 1459527055}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -18421,6 +20022,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459527049}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1459527055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459527049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &1491004608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18538,6 +20163,7 @@ GameObject:
   - component: {fileID: 1493605948}
   - component: {fileID: 1493605947}
   - component: {fileID: 1493605946}
+  - component: {fileID: 1493605950}
   m_Layer: 6
   m_Name: Sphere (small) (17)
   m_TagString: Untagged
@@ -18658,6 +20284,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1493605944}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1493605950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1493605944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1511815481
 GameObject:
   m_ObjectHideFlags: 0
@@ -18671,6 +20321,7 @@ GameObject:
   - component: {fileID: 1511815485}
   - component: {fileID: 1511815484}
   - component: {fileID: 1511815483}
+  - component: {fileID: 1511815487}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -18791,6 +20442,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1511815481}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1511815487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511815481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1523701562
 GameObject:
   m_ObjectHideFlags: 0
@@ -19118,6 +20793,7 @@ GameObject:
   - component: {fileID: 1553912737}
   - component: {fileID: 1553912736}
   - component: {fileID: 1553912735}
+  - component: {fileID: 1553912739}
   m_Layer: 6
   m_Name: Sphere (small) (12)
   m_TagString: Untagged
@@ -19238,6 +20914,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553912733}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1553912739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553912733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &1584459566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19942,6 +21642,7 @@ GameObject:
   - component: {fileID: 1623753627}
   - component: {fileID: 1623753626}
   - component: {fileID: 1623753625}
+  - component: {fileID: 1623753629}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -20062,6 +21763,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1623753623}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1623753629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623753623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1627080594
 GameObject:
   m_ObjectHideFlags: 0
@@ -20075,6 +21800,7 @@ GameObject:
   - component: {fileID: 1627080598}
   - component: {fileID: 1627080597}
   - component: {fileID: 1627080596}
+  - component: {fileID: 1627080600}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -20195,6 +21921,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1627080594}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1627080600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627080594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &1627465783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20317,6 +22067,7 @@ GameObject:
   - component: {fileID: 1628925667}
   - component: {fileID: 1628925666}
   - component: {fileID: 1628925665}
+  - component: {fileID: 1628925669}
   m_Layer: 6
   m_Name: Cube (medium)
   m_TagString: Untagged
@@ -20437,6 +22188,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628925663}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1628925669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628925663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1630562147
 GameObject:
   m_ObjectHideFlags: 0
@@ -20490,6 +22265,7 @@ GameObject:
   - component: {fileID: 1630735994}
   - component: {fileID: 1630735993}
   - component: {fileID: 1630735992}
+  - component: {fileID: 1630735996}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -20610,6 +22386,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1630735990}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1630735996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630735990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1638447866
 GameObject:
   m_ObjectHideFlags: 0
@@ -20875,6 +22675,7 @@ GameObject:
   - component: {fileID: 1658879058}
   - component: {fileID: 1658879057}
   - component: {fileID: 1658879056}
+  - component: {fileID: 1658879060}
   m_Layer: 6
   m_Name: Sphere (big) (6)
   m_TagString: Untagged
@@ -20995,6 +22796,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658879054}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1658879060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658879054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1001 &1660782382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21102,6 +22927,7 @@ GameObject:
   - component: {fileID: 1672341635}
   - component: {fileID: 1672341634}
   - component: {fileID: 1672341633}
+  - component: {fileID: 1672341637}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -21222,6 +23048,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1672341631}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1672341637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672341631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1673920771
 GameObject:
   m_ObjectHideFlags: 0
@@ -21318,6 +23168,7 @@ GameObject:
   - component: {fileID: 1684067388}
   - component: {fileID: 1684067387}
   - component: {fileID: 1684067386}
+  - component: {fileID: 1684067390}
   m_Layer: 6
   m_Name: Sphere (big) (7)
   m_TagString: Untagged
@@ -21438,6 +23289,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684067384}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1684067390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684067384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1688600156
 GameObject:
   m_ObjectHideFlags: 0
@@ -22166,6 +24041,7 @@ GameObject:
   - component: {fileID: 1769991532}
   - component: {fileID: 1769991531}
   - component: {fileID: 1769991530}
+  - component: {fileID: 1769991534}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -22286,6 +24162,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1769991528}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1769991534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769991528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1787351181
 GameObject:
   m_ObjectHideFlags: 0
@@ -22524,6 +24424,7 @@ GameObject:
   - component: {fileID: 1801365901}
   - component: {fileID: 1801365900}
   - component: {fileID: 1801365899}
+  - component: {fileID: 1801365903}
   m_Layer: 6
   m_Name: Sphere (big) (3)
   m_TagString: Untagged
@@ -22644,6 +24545,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1801365897}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1801365903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1801365897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1809078408
 GameObject:
   m_ObjectHideFlags: 0
@@ -22862,6 +24787,7 @@ GameObject:
   - component: {fileID: 1820557408}
   - component: {fileID: 1820557407}
   - component: {fileID: 1820557406}
+  - component: {fileID: 1820557410}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -22982,6 +24908,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820557404}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1820557410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1820557404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1831275769
 GameObject:
   m_ObjectHideFlags: 0
@@ -22995,6 +24945,7 @@ GameObject:
   - component: {fileID: 1831275773}
   - component: {fileID: 1831275772}
   - component: {fileID: 1831275771}
+  - component: {fileID: 1831275775}
   m_Layer: 6
   m_Name: Cube (medium)
   m_TagString: Untagged
@@ -23115,6 +25066,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831275769}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1831275775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831275769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1837511667
 GameObject:
   m_ObjectHideFlags: 0
@@ -23616,6 +25591,7 @@ GameObject:
   - component: {fileID: 1850766629}
   - component: {fileID: 1850766628}
   - component: {fileID: 1850766627}
+  - component: {fileID: 1850766631}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -23736,6 +25712,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1850766625}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1850766631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850766625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1877289851
 GameObject:
   m_ObjectHideFlags: 0
@@ -23749,6 +25749,7 @@ GameObject:
   - component: {fileID: 1877289855}
   - component: {fileID: 1877289854}
   - component: {fileID: 1877289853}
+  - component: {fileID: 1877289857}
   m_Layer: 6
   m_Name: Sphere (big) (21)
   m_TagString: Untagged
@@ -23869,6 +25870,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1877289851}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1877289857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877289851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1886921925
 GameObject:
   m_ObjectHideFlags: 0
@@ -24279,6 +26304,7 @@ GameObject:
   - component: {fileID: 1921836536}
   - component: {fileID: 1921836535}
   - component: {fileID: 1921836534}
+  - component: {fileID: 1921836538}
   m_Layer: 6
   m_Name: Sphere (big)
   m_TagString: Untagged
@@ -24399,6 +26425,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921836532}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1921836538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1921836532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1928250029
 GameObject:
   m_ObjectHideFlags: 0
@@ -24829,6 +26879,7 @@ GameObject:
   - component: {fileID: 1984738350}
   - component: {fileID: 1984738349}
   - component: {fileID: 1984738348}
+  - component: {fileID: 1984738352}
   m_Layer: 6
   m_Name: Sphere (small) (3)
   m_TagString: Untagged
@@ -24949,6 +27000,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984738346}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1984738352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984738346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &1994114166
 GameObject:
   m_ObjectHideFlags: 0
@@ -25150,6 +27225,7 @@ GameObject:
   - component: {fileID: 2003781580}
   - component: {fileID: 2003781579}
   - component: {fileID: 2003781578}
+  - component: {fileID: 2003781582}
   m_Layer: 6
   m_Name: Cube (medium)
   m_TagString: Untagged
@@ -25270,6 +27346,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003781576}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2003781582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003781576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &2038832088
 GameObject:
   m_ObjectHideFlags: 0
@@ -25388,6 +27488,7 @@ GameObject:
   - component: {fileID: 2052186656}
   - component: {fileID: 2052186655}
   - component: {fileID: 2052186654}
+  - component: {fileID: 2052186658}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -25508,6 +27609,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052186652}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2052186658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052186652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!4 &2052376269 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7851002797528534259, guid: 4e8e2ebf5f68c466397c922e1fa4e3c9,
@@ -26305,6 +28430,7 @@ GameObject:
   - component: {fileID: 2147319989}
   - component: {fileID: 2147319988}
   - component: {fileID: 2147319987}
+  - component: {fileID: 2147319991}
   m_Layer: 6
   m_Name: Sphere (small)
   m_TagString: Untagged
@@ -26425,6 +28551,30 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2147319985}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2147319991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2147319985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
 --- !u!1 &65012412418657821
 GameObject:
   m_ObjectHideFlags: 0
@@ -27862,6 +30012,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6890243120249615260, guid: b07283a3afa604d96aa3f142143b097d,
+        type: 3}
+      propertyPath: m_TagString
+      value: Interactable
+      objectReference: {fileID: 0}
     - target: {fileID: 8166741461478987524, guid: b07283a3afa604d96aa3f142143b097d,
         type: 3}
       propertyPath: m_Name
@@ -28501,11 +30656,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sphere (small)
       objectReference: {fileID: 0}
-    - target: {fileID: 14998441742210293, guid: d38add5dc1f6c48818618eda472c44db,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 356265302872802099, guid: d38add5dc1f6c48818618eda472c44db,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -28592,6 +30742,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2407737013608280817, guid: 30f9af2513ebd4c66894b303cee49885,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4494697270222594948, guid: 30f9af2513ebd4c66894b303cee49885,
         type: 3}
       propertyPath: m_Name
@@ -28766,11 +30921,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sphere (big)
-      objectReference: {fileID: 0}
-    - target: {fileID: 3934284752672239913, guid: 846ebddfe7e4944298f992790f921d95,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

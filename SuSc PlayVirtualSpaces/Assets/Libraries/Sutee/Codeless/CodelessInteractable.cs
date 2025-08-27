@@ -76,11 +76,12 @@ public class CodelessInteractable : MonoBehaviour
         _coll = GetComponentInChildren<Collider>();
         if (_coll == null)
         {
-            Debug.Log(name + "Init(): ERROR: Please add a collider to the CodelessInteractable for it to work.");
+            Debug.LogError(name + "Init(): ERROR: Please add a collider to the CodelessInteractable for it to work.");
         }
         if (gameObject.tag != "Interactable")
         {
-            Debug.Log(name + "Init(): ERROR: Please assign tag \"Interactable\" to this gameObject for it to work.");
+            this.tag = "Interactable";
+            Debug.LogWarning(name + "Init(): ERROR: Please assign tag \"Interactable\" to this gameObject for it to work.");
         }
     }
 }

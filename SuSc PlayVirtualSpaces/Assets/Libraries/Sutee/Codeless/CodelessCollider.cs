@@ -18,7 +18,7 @@ public class CodelessCollider : MonoBehaviour
     private Collider _collider;
     public enum collisionAction { OnCollisionEnter, OnCollisionStay, OnCollisionExit, DoNothing }
     [Tooltip("Tag of the other game object which should register a collision.")]
-    public string otherTag = "";
+    public string otherTag = "Player";
     [Tooltip("When should something happen")]
     public collisionAction whenThisHappens;
     private collisionAction _whenThisHappensBackup;

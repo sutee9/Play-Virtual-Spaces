@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 7535252508163526721}
   - component: {fileID: 8877669406512384974}
   - component: {fileID: 7793789929727010873}
-  m_Layer: 0
+  - component: {fileID: 2888247919200521835}
+  m_Layer: 6
   m_Name: PhysicalBall (small)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14998441742210293}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.54, y: 0.32, z: 9.211001}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
@@ -133,3 +134,27 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &2888247919200521835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14998441742210293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15fbd16c9594f4551a12afeed60119ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otherTag: Player
+  whenThisHappens: 0
+  doThis:
+    m_PersistentCalls:
+      m_Calls: []
+  mayOnlyUseOnce: 0
+  destroyAfterCollision: 0
+  log: 1
+  logAll: 0
+  ignoreColliders: 0
+  ignoreTriggers: 0
+  collideOn: 0
