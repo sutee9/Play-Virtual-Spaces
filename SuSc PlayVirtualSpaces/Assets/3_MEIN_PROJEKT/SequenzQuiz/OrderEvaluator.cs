@@ -47,6 +47,7 @@ public class OrderEvaluator : MonoBehaviour
         if (!_acceptingReports)
         {
             Debug.LogWarning("Order Evaluator: Currently not accepting reports. Reset first");
+            return;
         }
 
         //Add Report to Answer Sequence
