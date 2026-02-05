@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 73b1c4f4fdf0deb4d9541eaceb6876af
+guid: 37f09d36f1cc487898b2972dfb737625
 ModelImporter:
   serializedVersion: 19301
   internalIDToNameTable: []
@@ -99,6 +99,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 234253
   packageName: POLYGON Tropical Jungle - Nature Biomes - Low Poly 3D Art by Synty
-  packageVersion: 1.9.0
-  assetPath: Assets/PolygonNatureBiomes/PNB_Tropical_Jungle/FX/FX_Models/FX_Plane.fbx
-  uploadId: 703403
+  packageVersion: 1.10.1
+  assetPath: Assets/2_ThirdPartyAssets/PolygonNatureBiomes/PNB_Tropical_Jungle/FX/FX_Models/FX_Plane.fbx
+  uploadId: 794502

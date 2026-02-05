@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3294118000977810144
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 10
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -8,7 +21,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Cloud_Mat_01
-  m_Shader: {fileID: 4800000, guid: 852113d15a525b849b1d469228f450ce, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 4a6c8c23090929241b2a55476a46a9b1,
+    type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -19,79 +33,12 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Albedo:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _BumpMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Depth:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailAlbedoMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailMask:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _DetailNormalMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _EmissionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _MetallicGlossMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Normal:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _OcclusionMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _PanningNoise:
-        m_Texture: {fileID: 2800000, guid: 796e3706ceb704247adb957915a9edaf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _PanningNoise1:
-        m_Texture: {fileID: 2800000, guid: 796e3706ceb704247adb957915a9edaf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ParallaxMap:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Tree_NoiseTexture2:
-        m_Texture: {fileID: 2800000, guid: 796e3706ceb704247adb957915a9edaf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _TreesMask1:
-        m_Texture: {fileID: 2800000, guid: 64e90820ecd634e4c8a61665e94581ee, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _texcoord:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -107,21 +54,31 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaCutoff: 0.5
+    - _BUILTIN_QueueControl: -1
+    - _BUILTIN_QueueOffset: 0
     - _Big_Wave1: 1
     - _Big_WindAmount1: 1
     - _Big_Windspeed1: 0.5
     - _BumpScale: 1
+    - _Cloud_Speed: 0
+    - _Cloud_Strength: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DirectLight: 0.32
     - _DstBlend: 0
+    - _Enable_Fog: 0
+    - _Enable_Fresnel: 0
+    - _Enable_Scattering: 1
     - _EnvironmentReflections: 1
     - _Float0: 2.26
     - _Float2: 0.45
     - _Float3: 0.0823
+    - _Fog_Density: 0.2
+    - _Fresnel_Power: 0.6
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
+    - _Light_Intensity: 0
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -131,6 +88,8 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Scattering_Edge_Dist: 0
+    - _Scattering_Multiplier: 0
     - _SmoothnessTextureChannel: 0
     - _Specular: 0.876
     - _SpecularHighlights: 1
@@ -142,6 +101,7 @@ Material:
     - _TransShadow: 0.398
     - _Translucency: 12
     - _UVSec: 0
+    - _Use_Environment_Override: 0
     - _WindDirection1: 1.24
     - _WindEffect: 1
     - _WindNoiseScale: 0.005
@@ -172,6 +132,7 @@ Material:
     - _stepFloat: 9.56
     - _stepFloatRim: 1.56
     m_Colors:
+    - _Base_Color: {r: 0.7058824, g: 0.8901961, b: 1, a: 1}
     - _Color: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
     - _Color0: {r: 0.631, g: 0.80809605, b: 1, a: 0}
     - _Color3: {r: 0.723, g: 0.80609995, b: 1, a: 0}
@@ -180,9 +141,27 @@ Material:
     - _Colour2: {r: 0.681, g: 0.8245501, b: 1, a: 0}
     - _EmissionColor: {r: 0.092, g: 0.092, b: 0.092, a: 1}
     - _EmissiveColour: {r: 0.36378607, g: 0.5328233, b: 0.7075472, a: 0}
+    - _Fresnel_Color: {r: 0.9339623, g: 0.1982467, b: 0.1982467, a: 0}
     - _GustSmoothing1: {r: 1, g: 1, b: 1, a: 0}
+    - _Light_Direction_Override: {r: 0, g: 0, b: 0, a: 0}
+    - _Scattering_Color: {r: 0.735849, g: 0.5341338, b: 0.253382, a: 0}
     - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+    - _Top_Color: {r: 1, g: 1, b: 1, a: 1}
     - _Translucency: {r: 0.5, g: 0.5, b: 0.5, a: 0}
     - _emissiveColour: {r: 0.759, g: 0.8125556, b: 1, a: 0}
     - _emissiveColour1: {r: 0.656535, g: 0.7297195, b: 0.865, a: 0}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &3043017246265412177
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 0

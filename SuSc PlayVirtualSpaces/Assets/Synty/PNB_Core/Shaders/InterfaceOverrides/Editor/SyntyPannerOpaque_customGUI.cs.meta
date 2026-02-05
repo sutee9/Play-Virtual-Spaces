@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bb43379cac175074abf96ac2ba4fbba8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 234253
+  packageName: POLYGON Tropical Jungle - Nature Biomes - Low Poly 3D Art by Synty
+  packageVersion: 1.10.1
+  assetPath: Assets/Synty/PNB_Core/Shaders/InterfaceOverrides/Editor/SyntyPannerOpaque_customGUI.cs
+  uploadId: 794502
