@@ -28,7 +28,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a074ec59f6e910b4e8c49f57e56cf95a, type: 3}
   m_Name: VolumetricFogVolumeComponent
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   distance:
     m_OverrideState: 1
     m_Value: 361
@@ -98,7 +98,7 @@ MonoBehaviour:
     m_Value: 19.1
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 1, g: 0.7386088, b: 0.5801887, a: 1}
   hueShift:
     m_OverrideState: 0
     m_Value: 0
@@ -120,11 +120,78 @@ MonoBehaviour:
   active: 1
   texture:
     m_OverrideState: 1
-    m_Value: {fileID: 2800000, guid: 35c62a31bf64f2146873e95c92835f33, type: 3}
+    m_Value: {fileID: 2800000, guid: 87a9957f6d513ea44bc2881046219704, type: 3}
     dimension: 1
   contribution:
     m_OverrideState: 1
-    m_Value: 0.261
+    m_Value: 0.736
+--- !u!114 &-2342854067956050990
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06437c1ff663d574d9447842ba0a72e4, type: 3}
+  m_Name: ScreenSpaceLensFlare
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ScreenSpaceLensFlare
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 4.4
+  tintColor:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  bloomMip:
+    m_OverrideState: 0
+    m_Value: 1
+  firstFlareIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  secondaryFlareIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  warpedFlareIntensity:
+    m_OverrideState: 0
+    m_Value: 1
+  warpedFlareScale:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1}
+  samples:
+    m_OverrideState: 0
+    m_Value: 1
+  sampleDimmer:
+    m_OverrideState: 0
+    m_Value: 0.5
+  vignetteEffect:
+    m_OverrideState: 0
+    m_Value: 1
+  startingPosition:
+    m_OverrideState: 0
+    m_Value: 1.25
+  scale:
+    m_OverrideState: 0
+    m_Value: 1.5
+  streaksIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  streaksLength:
+    m_OverrideState: 0
+    m_Value: 0.5
+  streaksOrientation:
+    m_OverrideState: 0
+    m_Value: 0
+  streaksThreshold:
+    m_OverrideState: 0
+    m_Value: 0.25
+  resolution:
+    m_OverrideState: 0
+    m_Value: 4
+  chromaticAbberationIntensity:
+    m_OverrideState: 0
+    m_Value: 0.5
 --- !u!114 &-1887216633223150654
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -146,7 +213,7 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.281
+    m_Value: 0.336
   smoothness:
     m_OverrideState: 1
     m_Value: 0.245
@@ -174,7 +241,7 @@ MonoBehaviour:
     m_Value: 1
   intensity:
     m_OverrideState: 1
-    m_Value: 0.7
+    m_Value: 10
   scatter:
     m_OverrideState: 1
     m_Value: 0.75
@@ -213,7 +280,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: PostProcessing_CubistForest
+  m_Name: PostProcessing_Indoor
   m_EditorClassIdentifier: 
   components:
   - {fileID: -1836408874232617218}
@@ -226,6 +293,7 @@ MonoBehaviour:
   - {fileID: 211174449422681746}
   - {fileID: -8524207225523273671}
   - {fileID: -3520139938106040368}
+  - {fileID: -2342854067956050990}
 --- !u!114 &211174449422681746
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -241,7 +309,7 @@ MonoBehaviour:
   active: 1
   mode:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 1
   gaussianStart:
     m_OverrideState: 1
     m_Value: 40
@@ -256,7 +324,7 @@ MonoBehaviour:
     m_Value: 0
   focusDistance:
     m_OverrideState: 1
-    m_Value: 24.39
+    m_Value: 5
   aperture:
     m_OverrideState: 1
     m_Value: 8.6
@@ -346,10 +414,10 @@ MonoBehaviour:
   active: 1
   lift:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.97275555, z: 0.9861048, w: -0.00037540786}
+    m_Value: {x: 1, y: 0.7378977, z: 0.6226609, w: -0.00037540786}
   gamma:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9460329, z: 0.96796477, w: 0.0007508157}
+    m_Value: {x: 1, y: 0.75092286, z: 0.4696337, w: 0.0007508157}
   gain:
     m_OverrideState: 1
-    m_Value: {x: 0.9186613, y: 0.93573105, z: 1, w: -1.1365357e-11}
+    m_Value: {x: 1, y: 0.90572345, z: 0.58426267, w: -1.1365357e-11}
