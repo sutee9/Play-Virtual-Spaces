@@ -275,7 +275,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb0529fe0ac141a4ac219f02ee6e986, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 50
+  range: 12
   raySource: {fileID: 5940368169233991653}
   grabbedObjectRoot: {fileID: 884473517158562251}
   setTextInHUD: {fileID: 11400000, guid: 634578d3359b249b8a6d2ffbb36b63c5, type: 2}

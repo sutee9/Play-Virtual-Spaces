@@ -18,8 +18,8 @@ public class InteractablePlayerComponent : MonoBehaviour
 {
     
 
-    [Range(5f, 150f)]
-    public float range = 50f;
+    [Range(1f, 150f)]
+    public float range = 10f;
     public GameObject raySource;
     public GameObject grabbedObjectRoot;
     

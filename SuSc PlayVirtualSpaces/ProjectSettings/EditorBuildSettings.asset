@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/0_Sample_CAS/CubistForest/Scenes/CubistForest.unity
+    path: Assets/1_Sample_CAS/CubistForest/Scenes/CubistForest.unity
     guid: cf4b2eb735e21493fbdce560eff766e9
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
