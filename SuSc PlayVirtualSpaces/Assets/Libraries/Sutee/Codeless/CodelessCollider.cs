@@ -7,7 +7,6 @@
  */
 
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -30,9 +29,10 @@ public class CodelessCollider : MonoBehaviour
     [Space]
     [Tooltip("The collider will only trigger once, but the object will remain in the scene. ")]
     public bool mayOnlyUseOnce = false;
-    [Tooltip("The object will be destroyed after the configured collision event occurs. It will first be disabled immediately, and then destroyed after 5 seconds.")]
+    [Tooltip("The object will be destroyed after the configured collision event occurs. It will first be disabled immediately, and then destroyed after the specified delay")]
     public bool destroyAfterCollision = false;
-    private float afterSeconds=5f;
+    [Tooltip("Only has an effect if Destroy After Collision is enabled. Destruction will be delayed by this many seconds.")][Range(0f, 60f)]
+    public float destroyDelaySeconds=5f;
 
 
     [Header("Show Messages in Console")]
@@ -91,7 +91,7 @@ public class CodelessCollider : MonoBehaviour
             doThis.Invoke();
             if (destroyAfterCollision)
             {
-                DisableAndDestroy(afterSeconds);
+                DisableAndDestroy(destroyDelaySeconds);
             }
 
         }
@@ -118,7 +118,7 @@ public class CodelessCollider : MonoBehaviour
 
             doThis.Invoke();
             if (destroyAfterCollision) { 
-                DisableAndDestroy(afterSeconds);
+                DisableAndDestroy(destroyDelaySeconds);
             }
 
         }
@@ -146,7 +146,7 @@ public class CodelessCollider : MonoBehaviour
             doThis.Invoke();
             if (destroyAfterCollision)
             {
-                DisableAndDestroy(afterSeconds);
+                DisableAndDestroy(destroyDelaySeconds);
             }
 
         }
@@ -173,7 +173,7 @@ public class CodelessCollider : MonoBehaviour
             doThis.Invoke();
             if (destroyAfterCollision)
             {
-                DisableAndDestroy(afterSeconds);
+                DisableAndDestroy(destroyDelaySeconds);
             }
 
         }
@@ -200,7 +200,7 @@ public class CodelessCollider : MonoBehaviour
             doThis.Invoke();
             if (destroyAfterCollision)
             {
-                DisableAndDestroy(afterSeconds);
+                DisableAndDestroy(destroyDelaySeconds);
             }
 
         }
@@ -229,7 +229,7 @@ public class CodelessCollider : MonoBehaviour
             doThis.Invoke();
             if (destroyAfterCollision)
             {
-                DisableAndDestroy(afterSeconds);
+                DisableAndDestroy(destroyDelaySeconds);
             }
 
         }
