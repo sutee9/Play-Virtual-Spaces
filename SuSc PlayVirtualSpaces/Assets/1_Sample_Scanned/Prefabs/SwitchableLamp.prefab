@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1502713193185933051}
   - component: {fileID: 7195321828594631575}
   - component: {fileID: 7226567981394647830}
-  - component: {fileID: 3462004561713536163}
   m_Layer: 0
   m_Name: Button
   m_TagString: Interactable
@@ -52,16 +51,16 @@ MonoBehaviour:
   OnInteract:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3006982163733857518}
-        m_TargetAssemblyTypeName: CodelessAnimator, Assembly-CSharp
-        m_MethodName: PlayClip1
-        m_Mode: 1
+      - m_Target: {fileID: 126951499142928808}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Press
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 8780922645811503845}
@@ -88,6 +87,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  type: 0
   log: 1
   HowToUse: "Interactables sind Komponenten, mit denen Spieler per Mausklick interagieren
     k\xF6nnen, falls es im Crosshair ist.\nSie ben\xF6tigen: Einen Rigidbody + Einen
@@ -99,10 +99,10 @@ Rigidbody:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6890243120249615260}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -140,22 +140,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 3, z: 2}
   m_Center: {x: 0, y: -1.25, z: 0}
---- !u!114 &3462004561713536163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6890243120249615260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61699b4576e2e4e179e8f5c79c835d78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip1: {fileID: 7400000, guid: 579837273d4cf45069e838105355fec7, type: 2}
-  clip2: {fileID: 0}
-  clip3: {fileID: 0}
-  clip4: {fileID: 0}
 --- !u!1 &7898710566046022681
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,15 +181,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7898710566046022681}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 12
   m_Type: 2
-  m_Shape: 0
   m_Color: {r: 0.972549, g: 0.9437202, b: 0.16078427, a: 1}
   m_Intensity: 1.67
   m_Range: 2.3
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 0
     m_Resolution: -1
@@ -249,8 +232,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!114 &226510486904580209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -263,17 +250,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
   m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &8166741461478987524
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,6 +359,11 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -387,9 +385,11 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &8781210005360186324
 BoxCollider:
@@ -487,12 +487,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5648767689465423854, guid: 7f672a273352e4b188c14cee18b05436,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: eb410481bb0374aea898c90cd4b0f381, type: 2}
     - target: {fileID: -2859109400176981367, guid: 7f672a273352e4b188c14cee18b05436,
         type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: fb24749fcebca462183d66c441a42492, type: 2}
     - target: {fileID: 919132149155446097, guid: 7f672a273352e4b188c14cee18b05436,
@@ -536,7 +536,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7f672a273352e4b188c14cee18b05436,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 3006982163733857518}
+      addedObject: {fileID: 126951499142928808}
   m_SourcePrefab: {fileID: 100100000, guid: 7f672a273352e4b188c14cee18b05436, type: 3}
 --- !u!1 &2516020320819365482 stripped
 GameObject:
@@ -544,22 +544,28 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3326993505646508859}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3006982163733857518
-MonoBehaviour:
+--- !u!95 &126951499142928808
+Animator:
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2516020320819365482}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61699b4576e2e4e179e8f5c79c835d78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clip1: {fileID: 7400000, guid: 579837273d4cf45069e838105355fec7, type: 2}
-  clip2: {fileID: 0}
-  clip3: {fileID: 0}
-  clip4: {fileID: 0}
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1ef4cf538ab354daa8de38772d791bed, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &2999788271777225936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7f672a273352e4b188c14cee18b05436,
@@ -681,7 +687,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2d51493b78bc7404a9e20bfaed3f5b0a, type: 3}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 2d51493b78bc7404a9e20bfaed3f5b0a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
