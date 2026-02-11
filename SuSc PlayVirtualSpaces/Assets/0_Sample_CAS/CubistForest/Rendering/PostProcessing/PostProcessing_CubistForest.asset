@@ -50,6 +50,12 @@ MonoBehaviour:
   attenuationDistance:
     m_OverrideState: 0
     m_Value: 174.63
+  enableAPVContribution:
+    m_OverrideState: 1
+    m_Value: 0
+  APVContributionWeight:
+    m_OverrideState: 0
+    m_Value: 1
   enableMainLightContribution:
     m_OverrideState: 1
     m_Value: 1
@@ -124,7 +130,7 @@ MonoBehaviour:
     dimension: 1
   contribution:
     m_OverrideState: 1
-    m_Value: 0.261
+    m_Value: 0.104
 --- !u!114 &-1887216633223150654
 MonoBehaviour:
   m_ObjectHideFlags: 3
