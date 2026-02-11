@@ -53231,20 +53231,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2407737013608280817, guid: 30f9af2513ebd4c66894b303cee49885,
-        type: 3}
-      propertyPath: m_TagString
-      value: Player
-      objectReference: {fileID: 0}
     - target: {fileID: 4494697270222594948, guid: 30f9af2513ebd4c66894b303cee49885,
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4714426004075286482, guid: 30f9af2513ebd4c66894b303cee49885,
-        type: 3}
-      propertyPath: jumpSpeed
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6526947854211812116, guid: 30f9af2513ebd4c66894b303cee49885,
         type: 3}
